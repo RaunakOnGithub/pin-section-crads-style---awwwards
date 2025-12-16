@@ -1,0 +1,206 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set up the body for full height and basic font styles */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Manrope", sans-serif;
+  background: #1a1a1a;
+}
+
+section {
+  width: 100vw;
+  min-height: 80vh;
+  background: #fcfcfc;
+}
+
+.intro,
+.outro {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8vw;
+  background: #1a1a1a;
+  color: #ffffff;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+}
+
+.intro h2,
+.outro h2 {
+  font-size: 4vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "DM Sans", sans-serif;
+}
+
+.intro h2 span,
+.outro h2 span {
+  display: flex;
+  align-items: center;
+  margin-left: 0.8vw;
+  color: bisque;
+  font-family: "DM Sans", sans-serif;
+  font-size: 4vw;
+  font-weight: 400;
+}
+
+.outro h2 span {
+  margin-right: 0.8vw;
+
+}
+
+.intro p,
+.outro p {
+  max-width: 800px;
+  margin-top: 1rem;
+  line-height: 1.4;
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+.outro h5{
+    margin-top: 25px;
+    font-size: 1rem;
+}
+
+
+.pin-card {
+  position: relative;
+  display: flex;
+  padding: 10vh 8vw;
+  justify-content: space-between;
+  border-bottom: 1px solid #0000003d;
+  perspective: 1000px;
+  border-radius: 15px;
+}
+
+.pin-card .overlay {
+  position: absolute;
+  inset: 0;
+  background: #000;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.pin-card span {
+  font-size: 8vw;
+  font-weight: 600;
+  font-family: "DM Sans", sans-serif;
+}
+
+.pin-card-content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-family: "DM Sans", sans-serif;
+}
+
+.pin-card h2 {
+  font-size: 4vw;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  letter-spacing: -0.08rem;
+  font-family: "DM Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.pin-card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.pin-card p {
+  max-width: 70%;
+  margin-top: 1.5rem;
+  line-height: 1.3;
+  font-family: "Manrope", sans-serif;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .intro h2,
+  .outro h2 {
+    font-size: 8vw;
+  }
+
+  .intro svg,
+  .outro svg {
+    height: 8vw;
+    width: 8vw;
+  }
+
+  .intro p,
+  .outro p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+  .outro h5{
+    font-size: 20px;
+  }
+  .outro i{
+    padding: 5px;
+  }
+
+  .pin-card {
+    flex-direction: column;
+    padding: 5vh 6vw;
+    gap: 2rem;
+  }
+
+  .pin-card span {
+    font-size: 12vw;
+  }
+
+  .pin-card div {
+    width: 100%;
+  }
+
+  .pin-card h2 {
+    font-size: 8vw;
+    margin-bottom: 1rem;
+  }
+
+  .pin-card p {
+    max-width: 100%;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro,
+  .outro {
+    padding: 0 6vw;
+  }
+
+  .intro h2,
+  .outro h2 {
+    font-size: 10vw;
+  }
+
+  .intro svg,
+  .outro svg {
+    height: 10vw;
+    width: 10vw;
+  }
+
+  .pin-card span {
+    font-size: 15vw;
+  }
+
+  .pin-card h2 {
+    font-size: 10vw;
+  }
+}
