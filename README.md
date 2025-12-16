@@ -13,10 +13,15 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black" />
+ 
 </p>
 
 ---
+[![image.png](https://i.postimg.cc/7htFkCmN/image.png)](https://postimg.cc/JHJ63hwy)
+[![image.png](https://i.postimg.cc/9MM1jLKQ/image.png)](https://postimg.cc/XZR9fknR) 
+[![image.png](https://i.postimg.cc/ZKkgrhXq/image.png)](https://postimg.cc/grDNW1z9)
 
+---
 ## ⚔️ About The Project
 
 This project is a frontend development experiment inspired by modern **Awwwards** websites. It features a "card stacking" or "pinning" effect where sections layer over each other smoothly as the user scrolls. 
